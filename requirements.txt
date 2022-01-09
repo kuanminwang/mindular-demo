@@ -1,0 +1,11 @@
+django-import-export
+django-admin-logs
+dj-database-url
+django
+django-heroku
+psycopg2-binary
+gunicorn
+djangorestframework
+whitenoise
+drf-yasg
+django-cors-headers

@@ -1,0 +1,12 @@
+export const LOGIN = "login";
+export const LOGOUT = "logout";
+export const REGISTER = "register";
+export const UPDATE_USER = "updateUser";
+export const CHECK_AUTH = "checkAuth";
+export const GET_INFO_BLOCKS = "GET_INFO_BLOCKS";
+export const GET_INFO_BLOCKS_BY_LINK = "GET_INFO_BLOCKS_BY_LINK";
+export const GET_NEXT_BLOCK = "GET_NEXT_BLOCK";
+export const GET_PREVIOUS_BLOCK = "GET_PREVIOUS_BLOCK";
+export const CLEAR_INFO_BLOCKS_DETAILS = "CLEAR_INFO_BLOCKS_DETAILS";
+export const GET_INFO_BLOCK = "GET_INFO_BLOCK";
+export const GET_CARDS = "GET_CARDS";

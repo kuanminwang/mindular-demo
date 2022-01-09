@@ -1,0 +1,100 @@
+@import './colors';
+
+//  ICONS
+.ic-logo {
+    background-image: url('~@/assets/icons/logo.svg');
+}
+
+.ic-youtube {
+    background-image: url('~@/assets/youtube.svg');
+}
+
+.ic-figma {
+    background-image: url('~@/assets/figma.svg');
+}
+
+.ic-medium {
+    background-image: url('~@/assets/medium.svg');
+}
+
+.ic-stackoverflow {
+    background-image: url('~@/assets/stackoverflow.svg');
+}
+
+.ic-brand {
+    background-image: url('~@/assets/icons/brand.svg');
+}
+
+.ic-user {
+    background-image: url('~@/assets/icons/user.svg');
+}
+
+.ic-lock {
+    background-image: url('~@/assets/icons/lock.svg');
+}
+
+.ic-mail {
+    background-image: url('~@/assets/icons/mail.svg');
+}
+
+.ic-facebook {
+    background-image: url('~@/assets/icons/facebook.svg');
+}
+
+.ic-google {
+    background-image: url('~@/assets/icons/google.svg');
+}
+
+.ic-twitter {
+    background-image: url('~@/assets/icons/twitter.svg');
+}
+
+.ic-search {
+    background-image: url('~@/assets/icons/search.svg');
+}
+
+.ic-clipper {
+    background-image: url('~@/assets/icons/clipper.svg');
+}
+
+.ic-organizer {
+    background-image: url('~@/assets/icons/organizer.svg');
+}
+
+.ic-weaver {
+    background-image: url('~@/assets/icons/weaver.svg');
+}
+
+.ic-close-panel {
+    background-image: url('~@/assets/icons/close_panel.svg');
+    width: 24px;
+    height: 24px;
+}
+
+
+// ICON SIZE
+.ic-social-size {
+    width: 33px;
+    height: 33px;
+}
+
+
+.ic-auth-size {
+    width: 25px;
+    height: 25px;
+}
+
+.ic-brand-size {
+    width: 212px;
+    height: 46px;
+}
+
+.ic-logo-size {
+    width: 43px;
+    height: 39px;
+}
+
+.ic-intro-size {
+    width: 435px;
+    height: 435px;
+}

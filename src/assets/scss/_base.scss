@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+input {
+    padding: 0;
+
+    // remove  the default autofill style from the browser
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+        box-shadow: 0 0 0px 1000px white inset !important;
+    }
+}

@@ -1,0 +1,146 @@
+@import './colors';
+
+@for $i from 1 through 20 {
+    // margin
+    .mt-#{$i} {
+        margin-top: #{4px * $i};
+    }
+    .mb-#{$i} {
+        margin-bottom: #{4px * $i};
+    }
+    .ml-#{$i} {
+        margin-left: #{4px * $i};
+    }
+    .mr-#{$i} {
+        margin-right: #{4px * $i};
+    }
+
+    // padding
+    .pt-#{$i} {
+        padding-top: #{4px * $i};
+    }
+    .pb-#{$i} {
+        padding-bottom: #{4px * $i};
+    }
+    .pl-#{$i} {
+        padding-left: #{4px * $i};
+    }
+    .pr-#{$i} {
+        padding-right: #{4px * $i};
+    }
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+
+// Font
+.font-primary {
+    color: $denim-500;
+    
+    &--hover:hover {
+        color: $denim-600;
+    }
+}
+
+.font-xsmall {
+    font-size: .75rem;
+}
+
+.font-small {
+    font-size: .8rem;
+}
+
+.font-medium {
+    font-size: 1rem;
+}
+
+.font-large {
+    font-size: 1.5rem;
+}
+
+.font-xlarge {
+    font-size: 2rem;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+// Background
+.mindular-primary-background {
+    background: $denim-50;
+}
+
+// Width and Height
+@for $i from 1 through 4 {
+    // width
+    .width-percentage-#{25 * $i} {
+        width: #{25% * $i};
+    }
+
+    .width-vw-#{25 * $i} {
+        width: #{25vw * $i};
+    }
+
+    .height-percentage-#{25 * $i} {
+        height: #{25% * $i};
+    }
+
+    .height-vh-#{25 * $i} {
+        height: #{25vh * $i};
+    }
+}
+
+
+// Display
+$alignments: ("center", "space-between", "space-around", "space-evenly", "flex-start", "flex-end");
+
+.flex {
+    display: flex;
+    
+    @each $align in $alignments {
+        &.justify-content-#{$align} {
+          justify-content: #{$align};
+        }
+      
+        &.align-items-#{$align} {
+          align-items: #{$align};
+        }
+    }
+    
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.block {
+    display: block;
+}
+
+// POSITION
+.position-relative {
+    position: relative;
+}
+
+// TEXT ALIGNMENT
+.text-align-center {
+    text-align: center;
+}
+
+// CURSOR
+.cursor-pointer {
+    cursor: pointer;
+}
