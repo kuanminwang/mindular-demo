@@ -1,7 +1,8 @@
 module.exports = {
   lintOnSave: false,
+  publicPath: process.env.NODE_ENV === 'production' ? '/mindular-demo/' : '/',
   assetsDir: 'static',
-  outputDir: './mindularportal/ui',
+  outputDir: './mindular-demo/ui',
   devServer: {
     proxy: {
       '/api*': {
